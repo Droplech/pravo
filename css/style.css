@@ -212,8 +212,8 @@ ul li{
 }
 
 .main_content .right_content > div div ul:first-child{
-    width: 100%;
-    margin: 0;
+    /* width: 100%; */
+    /* margin: 0; */
 }
 .property_content .right_content > div div{
     border: none;
