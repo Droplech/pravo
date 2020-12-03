@@ -584,6 +584,9 @@ ul li{
     .main_content .tax_deduction > div > ul + ul{
         margin-top: 20px;
     }
+    .property_content .comments .form form .name_mail .input_mail{
+        margin-top: 20px;
+    }
 
 }
 @media screen and (max-width: 420px){
@@ -635,5 +638,8 @@ ul li{
     }
     .property_content .social{
         justify-content: center;
+    }
+    .property_content .comments .form form .name_mail input{
+        width: 100%;
     }
 }
