@@ -1,0 +1,639 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F8F8F8;
+}
+
+*{
+    box-sizing: border-box;
+}
+h1,h3{
+    margin: 0;
+    font-weight: 600;
+}
+h1{
+    font-size: 42px;
+    line-height: 45px;
+}
+h3{
+    font-size: 24px;
+}
+a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0093E5;
+    text-decoration: none;
+    border-bottom: 1px solid  #0093E5;
+}
+p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+
+.container{
+    margin: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+.header{
+    background-color: #fff;
+    width: 100%;
+    height: 91px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+    padding: 20px 0 0 80px;
+}
+.header{
+    background-color: #fff;
+    width: 100%;
+    height: 91px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+}
+.header .header_title{
+    display: flex;
+}
+.header .header_title h3 span{
+    color: #12B6C0;
+}
+.header .header_title .header_logo{
+    width: 45px;
+    height: 45px;
+    background: #12B6C0;
+    border-radius: 6px;
+    text-align: center;
+}
+.header .header_title .header_logo h1{
+    color: #fff;
+    
+}
+
+.main_content{
+    margin: 50px 0 100px 0;
+    
+}
+
+.main_content .right_content_wrapper{
+    flex-basis: 66%;
+    
+}
+.main_content .right_content_wrapper > .right_content + .right_content{
+    margin-top: 50px;
+}
+.main_content  .right_content{
+    width: 64%;
+    padding: 30px 45px 40px 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+.main_content .right_content > div{
+    width: 100%;
+    margin-top: 38px;
+   
+}
+.main_content .right_content > div div{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid #E4E4E4;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+.main_content .right_content > div div ul:first-child{
+    width: 398px;
+    margin-right: 13%;
+}
+.main_content .right_content > div div ul > li + li{
+    margin-top: 20px;
+   
+}
+.main_content .left_content{
+    flex-basis: 33%;
+    height: 1%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 32px 30px 37px 30px;
+}
+.main_content .left_content div{
+    border-top: 1px solid #E4E4E4;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.main_content .left_content div ul > li + li{
+    margin-top: 20px;
+}
+.main_content .left_content div ul li a{
+    color: #202020;
+    border: none;
+}
+
+.footer_content{
+    width: 100%;
+    background: #2B2B2B;
+    padding: 47px 0;
+    text-align: center;
+}
+.footer_content p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+/* Имущественный вычет */
+
+.property_content .how_to_get,
+.property_content .other_materials,
+.property_content .comments{
+    width: 100%;
+}
+
+
+.property_content .left_content div ul li a{
+    border-bottom: 1px solid #0093E5;
+    color: #0093E5;
+}
+
+.property_content .left_content_wrapper{
+    flex-basis: 33%;
+}
+.property_content .left_content{
+    width: 100%;
+    height: auto;
+}
+.property_content .left_content_wrapper > .left_content + .left_content{
+    margin-top: 50px;
+}
+
+.property_content .right_link{
+    font-size: 14px;
+    color: #8B8B8B;
+    margin: 0 0 30px 0;
+}
+.property_content .right_title{
+    font-size: 32px;
+    color: #202020;
+}
+
+.property_content  .links_title{
+    color: #202020;
+    font-size: 24px;
+}
+.property_content .links_list{
+    margin-top: 30px;
+}
+.property_content .links_list .nested_link{
+    margin: 15px 0 0 43px ;
+
+}
+.property_content .block_info .info_title,
+.property_content .block_info .info_subtitle{
+    font-size: 18px;
+    color: #202020;
+}
+.property_content .block_info .info_subtitle{
+    margin: 20px 0;
+}
+
+
+.property_content .right_content{
+    padding: 30px 44px 40px 44px;
+}
+
+.main_content .right_content > div div ul:first-child{
+    width: 100%;
+    margin: 0;
+}
+.property_content .right_content > div div{
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.property_content  .block_info_list .imfo_list_item p{
+    font-size: 18px;
+}
+
+.property_content  .block_info_list .info_list_title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #202020;
+    margin-bottom: 20px;
+}
+.property_content  .block_info_list ul{
+    padding: 0 0 0 46px;
+}
+.property_content  .block_info_list ul li{
+    list-style: disc;
+    
+}
+.property_content  .block_info_list ul li::marker{
+    color: #0093E6;
+    width: 7px;
+    height: 7px;
+}
+.property_content  .block_info_list_two{
+    margin-top: 50px !important;
+}
+.property_content  .block_info_list_two .info_list_title{
+    font-weight: 400;
+}
+.property_content  .block_info_list_two .info_list_title span{
+    font-weight: 600;
+}
+.property_content  .block_info_list_two .list_two_subtitle{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.property_content  .block_info .block_info_note{
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 22px;
+}
+.property_content  .block_info .block_info_note span{
+    font-weight: 600;
+}
+.property_content .deduction_real_estate .real_estate_title,
+.property_content .when_arisen_deduction .arisen_deduction_title{
+    font-weight: 600;
+    font-size: 24px;
+}
+.property_content .deduction_real_estate .real_estate_subtitle,
+.property_content .when_arisen_deduction .arisen_deduction_subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.property_content .deduction_real_estate .real_estate_note{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.property_content  .arisen_deduction_content{
+    display: flex !important;
+}
+.property_content  .arisen_deduction_content .type_transaction{
+    flex-basis: 41%;
+    border: 1px solid #E1E1E1;
+    padding-bottom: 116px;
+    
+}
+.property_content  .arisen_deduction_content .moment_occurrence{
+    flex-basis: 59%;
+    border: 1px solid #E1E1E1;
+    padding-bottom: 0;
+    
+}
+.property_content  .arisen_deduction_content .type_transaction h3{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.property_content  .arisen_deduction_content .type_transaction p{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+.property_content  .arisen_deduction_content .type_transaction > div{
+    width: 100%;
+    padding: 18px 0 ;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.property_content  .arisen_deduction_content .moment_occurrence .transaction_subtitle_one{
+    padding: 29px 0;
+}
+.property_content  .arisen_deduction_content .type_transaction .transaction_subtitle_one{
+    padding: 29px 0;
+}
+.property_content  .arisen_deduction_content .type_transaction .transaction_subtitle_two{
+    padding: 29px 0;
+}
+.property_content  .arisen_deduction_content .type_transaction .transaction_subtitle_three{
+    padding: 29px 0;
+}
+.property_content  .arisen_deduction_content .type_transaction .type_transaction_subtitle{
+    padding-left: 15px;
+    
+    border-bottom: 1px solid #E1E1E1;
+}
+.property_content  .arisen_deduction_content .type_transaction .type_transaction_subtitle:last-child{
+    
+    
+    border-bottom: none;
+}
+
+
+.property_content  .arisen_deduction_content .type_transaction .type_transaction_subtitle .subtitle_span{
+    margin-top: 30px;
+}
+.property_content  .mortgage_interest .mortgage_interest_title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.property_content  .mortgage_interest .mortgage_interest_subtitle{
+    margin-top: 20px;
+}
+
+.property_content .social{
+    display: flex;
+}
+.property_content .social a div{
+    width: 40px !important;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px !important;
+    text-align: center;
+    cursor: pointer;
+}
+.property_content .social a{
+    text-decoration: none;
+    border: none;
+}
+.property_content .social .facebook{
+    background-color: #4E6297;
+    padding-top: 11px;
+}
+.property_content .social .vk{
+    background-color: #7294C7;
+    padding-top: 11px;
+    padding-right: 2px;
+}
+.property_content .social .twitter{
+    background-color: #55ACE3;
+    padding-top: 12px;
+}
+.property_content .social .odnoklassniki{
+    background-color: #F79A38;
+    padding-top: 8px;
+}
+.property_content .social .mail{
+    background-color: #F59124;
+    padding-top: 11px;
+}
+
+
+
+
+.property_content .other_materials ul li{
+    margin-top: 20px;
+}
+
+.property_content .comments .comments_subtitle{
+    font-size: 18px;
+    margin: 20px 0 30px 0;
+}
+/* .property_content .comments .form{
+    width: 704px;
+
+} */
+.property_content .comments .form form{
+    width: 100%;
+    
+}
+.property_content .comments .form form .name_mail{
+    width: 100%;
+    display: flex;
+    
+    
+} 
+.property_content .comments .form form .name_mail input{
+    width: 342px;
+    outline: none;
+    background-color: #F8F8F8;
+    border: 1px solid #DDDDDD;
+    font-family: 'Montserrat', sans-serif;
+    padding: 18px  15px ;
+    font-size: 18px;
+    color: #202020;
+    margin-right: 20px;
+}
+
+.property_content .comments .form form .name_mail input::placeholder{
+    font-size: 18px;
+    color: #202020;
+}
+
+.property_content .comments .form form textarea{
+    outline: none;
+    background-color: #F8F8F8;
+    border: 1px solid #DDDDDD;
+    font-family: 'Montserrat', sans-serif;
+    width: 704px;
+    margin-top: 20px;
+    height: 170px;
+    font-size: 18px;
+}
+.property_content .comments .form form .send_data{
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+.property_content .comments .form form .send_data a{
+    border: none;
+}
+.property_content .comments .form form button{
+    background: #0093E6;
+    border-radius: 5px; 
+    width: 411px;
+    height: 88px;
+    outline: none;
+    border: none;
+}
+.property_content .comments .form form button p{
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.property_content  table{
+    margin-top: 50px;
+    border-collapse: collapse;
+    
+}
+.property_content  table .head td p{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.property_content  table tr td p{
+    font-size: 18px;
+}
+.property_content  table tr td{
+    border: 1px solid #E1E1E1;
+    padding: 20px ;
+
+}
+
+
+
+
+
+/* 404 */
+.error_contant{
+    text-align: center;
+}
+.error_contant .error_title{
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 300px;
+    text-shadow:
+            #000 2px 0px,
+            #000 2px 2px, #000 0px 2px, 
+            #000 -2px 2px, #000 -2px 0px, 
+            #000 -2px -2px, #000 0px -2px, 
+            #000 2px -2px;
+
+
+
+}
+.error_contant .error_subtitle{
+    font-weight: 600;
+    font-size: 32px;
+}
+.error_contant button{
+    width: 411px;
+    height: 88px;
+    background-color: #0093E5;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.error_contant button p{
+    color:#fff;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.error{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1366px){
+    .property_content .comments .form form .name_mail{
+        justify-content: space-between;
+    }
+    .property_content .comments .form form textarea{
+        width: 100%;
+    }
+    .property_content .comments .form form .name_mail input{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1280px){
+    .container_main_two{
+        margin: 0 40px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .main_content .left_content {
+        margin-top: 50px;
+        flex-basis: 60%;
+    }
+    .container{
+        justify-content: center;
+    }
+    .main_content .right_content{
+        width: 100%;
+    }
+    .property_content .left_content_wrapper {
+        flex-basis: 81%;
+    }
+
+}
+@media screen and (max-width: 770px){
+    .main_content .left_content {
+        flex-basis: 92%;
+    }
+    .container_main_two{
+        margin: 0;
+    }
+    .property_content .left_content_wrapper {
+        flex-basis: 100%;
+    }
+    .container{
+        margin: 0;
+    }
+    .main_content .right_content > div div{
+        flex-wrap: wrap;
+    }
+    .main_content .right_content_wrapper{
+        flex-basis: 100%;
+    }
+    .main_content .tax_deduction > div > ul + ul{
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 420px){
+    .main_content .right_content > div div{
+        flex-wrap: wrap;
+    }
+    .main_content .right_content{
+        padding: 30px 15px 40px 15px;
+        width: 100%;
+    }
+    .container{
+        margin: 0 ;
+    }
+    .main_content .right_content > div ul:nth-child(2){
+        margin-top: 20px;
+    }
+    .header{
+        padding: 20px 0 0 0;
+    }
+    .header .header_title{
+        justify-content: center;
+    }
+    .main_content .left_content{
+        flex-basis: 100%;
+    }
+    .main_content .right_content_wrapper{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .property_content .comments .form form button{
+        width: 100%;
+    }
+    .main_content .left_content{
+        width: 100%;
+    }
+    .error_contant .error_title {
+
+        font-size: 160px;
+    }
+    .error_contant .error_subtitle{
+        font-size: 27px;
+    }
+    .error_contant button{
+        width: 90%;
+    }
+    .property_content  .table{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    .property_content .social{
+        justify-content: center;
+    }
+}
